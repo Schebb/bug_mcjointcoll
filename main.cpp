@@ -306,7 +306,7 @@ int 	main ( void )
 		{
 			debugDisplayFilterData(*A);
 			debugDisplayFilterData(*B);
-			addFixedJoint(*A, vec3(0.f, 0.f, 0.f), *B, vec3(0.f, 0.f, 0.f),	/*WORKAROUND-->*/ true);
+			addFixedJoint(*A, vec3(0.f, 0.f, 0.f), *B, vec3(0.f, 0.f, 0.f),	/*WORKAROUND-->*/ false);
 			debugDisplayFilterData(*A);
 			debugDisplayFilterData(*B);
 
